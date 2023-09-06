@@ -75,7 +75,61 @@ div#tc{
   text-transform: uppercase;
   font-weight: bolder;
 }
+ 
+table{
+  width: 50%;
+  margin: 0% auto;
+ display: flex; 
+}
 
+section.premios{
+font-family: Arial, Helvetica, sans-serif;
+color: black;
 
+}
 
+.premios-title{
+  text-align: center;
+}
+td.date{
+  border: 2px solid blue;
+  background: orange;
+  padding: 0.7rem 1rem;
+  font-weight: bolder;
+  font-size: larger;
+}
 
+tbody{
+  display: table-row-group;
+  
+}
+
+tr{
+  height: 40px;
+}
+
+tr.tr1{
+  display: block;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+tr.tr2{
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+td{
+  padding-left: 2rem;
+}
+
+footer{
+  display: flex;
+  background-color: pink;
+  height: 6vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
